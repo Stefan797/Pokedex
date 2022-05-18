@@ -1,0 +1,98 @@
+.pokédex-entry {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entry-box {
+    position: absolute;
+    height: 80vh;
+    width: 80vw;
+    background-color: white;
+    cursor: pointer;
+    border: 2px groove white;
+    border-radius: 1px;
+    display: flex;
+}
+
+.background_container {
+    position: relative;
+    height: 80vh;
+    width: 80vw;
+    z-index: 2;
+}
+
+.entry-box video {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    height: 80vh;
+    width: 80vw;
+    object-fit: cover;
+}
+
+.entry_left_side {
+    z-index: 4;
+    min-width: 40vw;
+    height: 80vh;
+}
+
+.entry_left_side_box {
+    z-index: 5;
+    min-width: 38vw;
+    height: 70vh;
+    border: 2px solid white;
+    background-color: rgba(0,0,0, 0.1);
+}
+
+.entry_right_side {
+    z-index: 4;
+    min-width: 40vw;
+    height: 80vh;
+}
+
+.entry_right_side_box {
+    z-index: 5;
+    min-width: 38vw;
+    height: 70vh;
+    border: 2px solid white;
+    background-color: rgba(0,0,0, 0.1);
+}
+
+.namecontainer {
+    z-index: 5;
+    background-color: var(--entry-boxes-color);
+    height: 15vh;
+    width: 34vw;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.namecontainer h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.imagecontainer {
+    height: 20vh;
+    width: 34vw;
+    background-color: var(--entry-boxes-color);
+    margin-bottom: 4px;
+}
+
+.imagecontainer img {
+    width: 80%;
+    height: 80%;
+}
+
+.idcontainer {
+    height: 5vh;
+    width: 34vw;
+    background-color: var(--entry-boxes-color);
+}
+

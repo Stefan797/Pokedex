@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="icon" href="img/webIcon.png">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pokédex.css">
+    <link rel="stylesheet" href="css/entry.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/type_colors.css">
+
+    <script src="js/script.js"></script>
+    <script src="js/type_colors.js"></script>
+    <script src="js/pokédex.js"></script>
+    <script src="js/entry.js"></script>
+</head>
+
+<body onload="init()">
+
+    <div id="loadscreen" class="loadscreen">
+        <div class="wrapper">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <span>Loading</span>
+        </div>
+    </div>
+
+    <div class="background">
+        <img src="img/background.jpg">
+    </div>
+    <div class="page-content">
+
+
+        <div class="header padding120">
+            <p>Pokémon</p>
+            <div>
+                <button onclick="showPokedexGeneration(FirstPokédexGenerationArray)" class="gen-button">
+                    Gen 1
+                </button>
+                <button onclick="showPokedexGeneration(SecondPokédexGenerationArray)" class="gen-button">
+                    Gen 2
+                </button>
+                <button onclick="showPokedexGeneration(ThirdPokédexGenerationArray)" class="gen-button">
+                    Gen 3
+                </button>
+            </div>
+        </div>
+
+        <div id="pokédex-entries" class="pokédex-entries-container">
+        </div>
+    </div>
+
+    <div id="pokédex-entry" class="pokédex-entry d-none z-index-minus">
+    </div>
+</body>
+
+</html>

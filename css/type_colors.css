@@ -1,0 +1,260 @@
+/* TYPE BUTTONS */
+
+.normal-btn {
+    background: linear-gradient(rgb(212, 212, 185), rgb(168, 168, 120));
+    text-shadow: 0 1px 0 rgb(204, 204, 186);
+    border: solid 2px rgb(230, 230, 226);
+}
+
+.fighting-btn {
+    background: linear-gradient(rgb(214, 102, 96), rgb(192, 48, 40));
+    text-shadow: 0 1px 0 rgb(223, 123, 117);
+    border: solid 2px rgb(223, 123, 117);
+}
+
+.flying-btn {
+    background: linear-gradient(rgb(213, 201, 250), rgb(168, 144, 240));
+    text-shadow: 0 1px 0 rgb(195, 182, 238);
+    border: solid 2px rgb(195, 182, 238);
+}
+
+.poison-btn {
+    background: linear-gradient(rgb(199, 111, 199), rgb(160, 64, 160));
+    text-shadow: 0 1px 0 rgb(209, 143, 209);
+    border: solid 2px rgb(209, 143, 209);
+}
+
+.ground-btn {
+    background: linear-gradient(rgb(241, 214, 139), rgb(224, 192, 104));
+    text-shadow: 0 1px 0 rgb(250, 234, 189);
+    border: solid 2px rgb(245, 220, 151);
+}
+
+.rock-btn {
+    background: linear-gradient(rgb(214, 191, 90), rgb(167, 142, 35));
+    text-shadow: 0 1px 0 rgb(233, 211, 116);
+    border: solid 2px rgb(218, 195, 97);
+}
+
+.bug-btn {
+    background: linear-gradient(rgb(200, 216, 57), rgb(131, 184, 32));
+    text-shadow: 0 1px 0 rgb(219, 230, 121);
+    border: solid 2px rgb(219, 231, 105);
+}
+
+.ghost-btn {
+    background: linear-gradient(rgb(130, 117, 151), rgb(102, 73, 150));
+    text-shadow: 0 1px 0 rgb(144, 136, 158);
+    border: solid 2px rgb(205, 201, 211);
+}
+
+.steel-btn {
+    background: linear-gradient(rgb(202, 202, 206), rgb(167, 167, 170));
+    text-shadow: 0 1px 0 rgb(226, 226, 230);
+    border: solid 2px rgb(229, 229, 233);
+}
+
+.fire-btn {
+    /* background-color: rgb(240, 128, 48); */
+    background: linear-gradient(rgb(254, 190, 77), rgb(240, 128, 48));
+    text-shadow: 0 1px 0 rgb(250, 215, 154);
+    border: solid 2px rgb(250, 215, 154);
+}
+
+.water-btn {
+    background: linear-gradient(rgb(146, 173, 236), rgb(104, 144, 240));
+    text-shadow: 0 1px 0 rgb(194, 207, 238);
+    border: solid 2px rgb(194, 207, 238);
+}
+
+.grass-btn {
+    background: linear-gradient(rgb(162, 221, 133), rgb(120, 200, 80));
+    text-shadow: 0 1px 0 rgb(176, 238, 144);
+    border: solid 2px rgb(176, 238, 144);
+}
+
+.electric-btn {
+    background: linear-gradient(rgb(248, 235, 48), rgb(248, 208, 48));
+    text-shadow: 0 1px 0 rgb(252, 243, 126);
+    border: solid 2px rgb(252, 243, 126);
+}
+
+.psychic-btn {
+    background: linear-gradient(rgb(248, 129, 165), rgb(248, 88, 187));
+    text-shadow: 0 1px 0 rgb(253, 179, 201);
+    border: solid 2px rgb(253, 179, 201);
+}
+
+.ice-btn {
+    background: linear-gradient(rgb(192, 226, 226), rgb(134, 211, 211));
+    text-shadow: 0 1px 0 rgb(164, 191, 245);
+    border: solid 2px rgb(243, 247, 255);
+}
+
+.dragon-btn {
+    background: linear-gradient(rgb(123, 100, 253), rgb(85, 56, 248));
+    text-shadow: 0 1px 0 rgb(170, 137, 248);
+    border: solid 2px rgb(170, 137, 248);
+}
+
+.dark-btn {
+    background: linear-gradient(rgb(112, 88, 72), rgb(75, 51, 36));
+    text-shadow: 0 1px 0 rgb(122, 104, 91);
+    border: solid 2px rgb(122, 104, 91);
+}
+
+.fairy-btn {
+    background: linear-gradient(rgb(249, 206, 252), rgb(249, 173, 255));
+    text-shadow: 0 1px 0 rgb(253, 221, 255);
+    border: solid 2px rgb(252, 242, 253);
+}
+
+/* TYPE BACKGROUND COLORS */
+
+.normal-bgColor {
+    background-color: rgb(182, 182, 165);
+}
+
+.fighting-bgColor {
+    background-color: rgb(192, 48, 40);
+}
+
+.flying-bgColor {
+    background-color: rgb(168, 144, 240);
+}
+
+.poison-bgColor {
+    background-color: rgb(160, 64, 160);
+}
+
+.ground-bgColor {
+    background-color: rgb(224, 192, 104);
+}
+
+.rock-bgColor {
+    background-color: rgb(184, 160, 56);
+}
+
+.bug-bgColor {
+    background-color: rgb(168, 184, 32);
+}
+
+.ghost-bgColor {
+    background-color: rgb(112, 88, 152);
+}
+
+.steel-bgColor {
+    background-color: rgb(210, 210, 215);
+}
+
+.fire-bgColor {
+    /*  background-color: rgb(240, 128, 48); */
+    background-color: rgb(243, 102, 92);
+}
+
+.water-bgColor {
+    background-color: rgb(104, 144, 240);
+}
+
+.grass-bgColor {
+    background-color: rgb(120, 200, 80);
+}
+
+.electric-bgColor {
+    background-color: rgb(248, 208, 48);
+}
+
+.psychic-bgColor {
+    background-color: rgb(248, 88, 187);
+}
+
+.ice-bgColor {
+    background-color: rgb(152, 216, 216);
+}
+
+.dragon-bgColor {
+    background-color: rgb(85, 56, 248);
+}
+
+.dark-bgColor {
+    background-color: rgb(112, 88, 72);
+}
+
+.fairy-bgColor {
+    background-color: rgb(249, 173, 255);
+}
+
+/* TYPE LAYERS */
+
+.normal-layer {
+    background-color: rgba(219, 219, 194, 0.2);
+}
+
+.fighting-layer {
+    background-color: rgba(192, 48, 40, 0.1);
+}
+
+.flying-layer {
+    background-color: rgba(168, 144, 240, 0.3);
+}
+
+.poison-layer {
+    background-color: rgba(160, 64, 160, 0.1);
+}
+
+.ground-layer {
+    background-color: rgba(224, 192, 104, 0.5);
+}
+
+.rock-layer {
+    background-color: rgba(184, 160, 56, 0.5);
+}
+
+.bug-layer {
+    background-color: rgba(168, 184, 32, 0.2);
+}
+
+.ghost-layer {
+    background-color: rgba(112, 88, 152, 0.5);
+}
+
+.steel-layer {
+    background-color: rgba(210, 210, 215, 0.1);
+}
+
+.fire-layer {
+    background-color: rgba(240, 77, 48, 0.2);
+}
+
+.water-layer {
+    background-color: rgba(104, 144, 240, 0.4);
+}
+
+.grass-layer {
+    background-color: rgba(120, 200, 80, 0.2);
+}
+
+.electric-layer {
+    background-color: rgba(248, 208, 48, 0.2);
+}
+
+.psychic-layer {
+    background-color: rgba(248, 88, 187, 0.5);
+}
+
+.ice-layer {
+    /* background-color: rgba(152, 216, 216, 0.1); */
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dragon-layer {
+    background-color: rgba(85, 56, 248, 0.3);
+}
+
+.dark-layer {
+    background-color: rgba(112, 88, 72, 0.1);
+}
+
+.fairy-layer {
+    background-color: rgba(249, 173, 255, 0.3);
+}

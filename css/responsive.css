@@ -1,0 +1,41 @@
+@media (min-width: 100px) and (max-width: 1000px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .header p {
+        font-size: 50px;
+        background: -webkit-linear-gradient(#eee, #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .header div {
+        display: flex;
+    }
+    
+    .header button {
+        margin-top: -10px;
+        height: 36px;
+        width: 70px;
+        margin-right: 10px;
+        border-radius: 5px;
+        font-family: inherit;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        background: linear-gradient(rgb(108, 137, 231), rgb(78, 89, 240), rgb(57, 68, 218));
+        text-shadow: 0 1px 0 rgb(108, 137, 231);
+        border: solid 3px rgb(108, 137, 231);
+    }
+
+    .entry-box video {
+        object-fit: cover;
+    }
+}
+
+
+
