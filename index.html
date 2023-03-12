@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="icon" href="img/webIcon.png">
+
+    <script src="js/script.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/pokedex.js"></script>
+    <script src="js/entry.js"></script>
+    <script src="js/themeAbout.js"></script>
+    <script src="js/themeBaseStats.js"></script>
+    <script src="js/themeMoves.js"></script>
+    <script src="js/specials.js"></script>
+    <script src="js/keyboard.js"></script>
+    <script src="js/responsivMenu.js"></script>
+
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <link rel="stylesheet" href="css/entry.css">
+    <link rel="stylesheet" href="css/htmlthemes.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/entrycolor.css">
+    <link rel="stylesheet" href="css/header-responsive.css">
+    <link rel="stylesheet" href="css/scrollbar-design.css">
+</head>
+
+<body onload="init()">
+
+    <div id="entry-background-container" onclick="closesingleEntry()" class="background-container center cursor-pointer d-none">
+        <div onclick="event.stopPropagation()" class="singleEntry center d-none" id="singleEntry"></div>
+    </div>
+    
+    <div id="header" class="header page_padding">
+        <div class="help-box-left">
+            <div class="headerpokemon-box">
+                <img onclick="comeUpToSide()" id="headerpokemon" class="headerpokemon d-none cursor-pointer" src="">
+            </div>
+
+            <div class="information-box">
+                <div id="info-animation" class="animation">
+                    <span id="info-text"></span> <!--Kanto Johto Hoenn-->
+                </div>
+            </div>
+        </div>
+        <div class="button-box">
+            <button onclick="loadPokemonGeneration(1, 151, 1)">Gen 1</button>
+            <button onclick="loadPokemonGeneration(152, 251, 2)">Gen 2</button>
+            <button onclick="loadPokemonGeneration(252, 387, 3)">Gen 3</button>
+        </div>
+    </div>
+
+    <div id="headersmartphone" class="headersmartphone page_padding">
+        <div class="pikachu">
+            <img onclick="comeUpToSide()" id="headerpokemon-smartphone" class="pikachu-smartphone d-none" src="">
+        </div>
+        <div onclick="openmenu()" class="drop-menu center-column">...</div>
+    </div>
+
+    <!--changePokedexLanguageSmartphoneMenu()-->
+
+    <div id="header-menu" class="header-menu d-none">
+        <div class="insidebox center">
+            <div onclick="closemenu()" id="close-menu" class="close-menu">X</div>
+            <div class="allfiles center-column">
+                <p>Generationen</p>
+                <div class="button-box">
+                    <button onclick="loadPokemonGeneration(1, 151, 1);closemenu();">Gen 1</button>
+                    <button onclick="loadPokemonGeneration(152, 251, 2);closemenu();">Gen 2</button>
+                    <div class="mt-16">
+                        <button onclick="loadPokemonGeneration(252, 387, 3);closemenu();">Gen 3</button>
+                    </div>
+                </div>
+                <p>Sprachen</p>
+                <div class="button-box">
+                    <button onclick="changelanguagetoEnglish();closemenu();">Englisch</button>
+                    <button onclick="changelanguagetoGerman();closemenu();">Deutsch</button>
+                </div>
+                <p>Informationen</p>
+                <span>
+                    Klicke auf das Pikachu, um oben zur Seite zu gelangen. Informieren Sie sich über die spannenden Details im jeweiligen Eintrag.
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="pokemons-background-container page_padding">
+        <div id="container" class="pokemons">
+            
+        </div>
+    </div>
+
+    <div class="loadpokemonloader d-none" id="loader">
+        <span class="loader"></span>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+/* noto-sans-anatolian-hieroglyphs-regular - anatolian-hieroglyphs */
+@font-face {
+    font-family: 'Noto Sans Anatolian Hieroglyphs';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/noto-sans-anatolian-hieroglyphs-v14-anatolian-hieroglyphs-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('./fonts/noto-sans-anatolian-hieroglyphs-v14-anatolian-hieroglyphs-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('./fonts/noto-sans-anatolian-hieroglyphs-v14-anatolian-hieroglyphs-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/noto-sans-anatolian-hieroglyphs-v14-anatolian-hieroglyphs-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('./fonts/noto-sans-anatolian-hieroglyphs-v14-anatolian-hieroglyphs-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/noto-sans-anatolian-hieroglyphs-v14-anatolian-hieroglyphs-regular.svg#NotoSansAnatolianHieroglyphs') format('svg');
+    /* Legacy iOS */
+}

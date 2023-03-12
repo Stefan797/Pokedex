@@ -1,0 +1,6 @@
+/out
+node_modules/
+/separateTests
+jsdoc.json
+package-lock.json
+package.json

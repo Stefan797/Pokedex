@@ -1,0 +1,33 @@
+.scrollbar-design {
+    overflow-y: auto;
+} 
+
+.scrollbar-design::-webkit-scrollbar {
+    width: 10px;
+    height: 60%;
+    /* width of the entire scrollbar */
+}
+
+.scrollbar-design::-webkit-scrollbar-track {
+    background: rgb(229, 229, 229);
+    /* color of the tracking area */
+}
+
+.scrollbar-design::-webkit-scrollbar-thumb {
+    background-color: black;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid rgb(229, 229, 229);
+    /* creates padding around scroll thumb */
+}
+
+/* Firefox */
+
+.firefox-scrollbar {
+    /* if open by firefox */
+    scrollbar-width: thin;
+    /* "auto" or "thin" */
+    scrollbar-color: black rgb(229, 229, 229);
+    /* scroll thumb and track */
+}

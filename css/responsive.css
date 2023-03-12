@@ -1,0 +1,148 @@
+@media (max-width: 450px) { 
+    #header {
+        display: none;
+    }
+
+    .pokemon-box-pokeball{
+        width: 48.5vw !important;
+        height: 48.5vw !important;
+    }
+
+    .pokeball-void-circle{
+        width: 15vw !important;
+        height: 15vw !important;
+    
+    }
+}
+
+@media (max-width: 1000px) {
+    #header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 650px) and (min-width: 450px) {
+    #header {
+        display: none;
+    }
+
+    .pokemon-box-pokeball{
+        width: 33.5vw !important;
+        height: 33.5vw !important;
+    }
+
+    .pokeball-void-circle{
+        width: 7.5vw !important;
+        height: 7.5vw !important;
+    }
+
+    .ability-container {
+        max-height: 85px !important;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 650px) {
+    #header {
+        display: none;
+    }
+    .pokemon-box-pokeball{
+        width: 24.5vw !important;
+        height: 24.5vw !important;
+    }
+
+    .pokeball-void-circle{
+        width: 5vw !important;
+        height: 5vw !important;
+    
+    }
+
+    .ability-container {
+        max-height: 85px !important;
+    }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 900px) {
+    .pokemon-box-pokeball{
+        width: 16.5vw !important;
+        height: 16.5vw !important;
+    }
+
+    .pokeball-void-circle{
+        width: 8vw !important;
+        height: 8vw !important;
+    
+    }
+
+    .ability-container {
+        max-height: 100px !important;
+    }
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 1000px) {
+    #headersmartphone {
+        display: none;
+    }
+    .ability-container {
+        max-height: 110px !important;
+    }
+
+    .main-container-baseStats {
+        max-height: 200px !important;
+    }
+
+    .headlinecontent {
+        max-height: 160px !important;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 1000px) and (orientation: landscape) {
+    .pokemon-box {
+        height: 100vh !important;
+    }
+    .singleEntry {
+        height: 90vh !important;
+        min-width: 90vw !important;
+        flex-direction: row !important;
+    }
+
+    .pokemon-container {
+        height: 100%;
+        width: 40% !important;
+    }
+
+    .info_container {
+        max-height: 100% !important;
+        width: 60% !important;
+        margin-top: 0% !important;
+        overflow-y: auto;
+    }
+
+    .theme {
+        margin-bottom: 20px;
+    }
+
+    .headersmartphone {
+        height: 18vh !important;
+    }
+
+    .drop-menu {
+        top: 0% !important;
+    }
+
+    .header-menu {
+        overflow-y: auto;
+    }
+    
+    .allfiles p {
+        font-size: 16px !important;
+    }
+
+    .allfiles span {
+        font-size: 12px !important;
+    }
+
+    .button-box button {
+        font-size: 12px !important;
+        width: 100px !important;
+    }
+} 

@@ -1,0 +1,83 @@
+/* Entry types colors */
+
+.entry-color-grass {
+    background-color: #63CF9B;
+}
+
+.entry-color-poison {
+    background-color: #9587c9;
+}
+
+.entry-color-fire {
+    background-color: #F19B62;
+}
+
+.entry-color-dragon {
+    background-color: #abc2ed;
+}
+
+.entry-color-flying {
+    background-color: #9BA6F5;
+}
+
+.entry-color-bug {
+    background-color: #8ad479;
+}
+
+.entry-color-normal {
+    background-color: #c29fa8;
+}
+
+.entry-color-dark {
+    background-color: #7752ba;
+}
+
+.entry-color-electric {
+    background-color: #FFBF16;
+}
+
+.entry-color-psychic {
+    background-color: #7C456D;
+}
+
+.entry-color-ground {
+    background-color: #f2ac80;
+}
+
+.entry-color-ice {
+    background-color: #19aae3;
+}
+
+.entry-color-steel {
+    background-color: #ababab;
+}
+
+.entry-color-fairy {
+    background-color: #E49390;
+}
+
+.entry-color-fighting {
+    background-color: #d19b7b;
+}
+
+.entry-color-rock {
+    background-color: #7d7d7d;
+}
+
+.entry-color-water {
+    background-color: #648EA6;
+}
+
+.entry-color-ghost {
+    background-color: #a991c9;
+}
+
+/* Special */ 
+
+.enton {
+    background-color: #FFC93A;
+}
+
+.turtok {
+    background-color: #60C6D2;
+}

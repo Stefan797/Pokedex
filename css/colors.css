@@ -1,0 +1,252 @@
+/* Typ grass */
+
+.type-btn-grass {
+    background-color: #91BE19;
+}
+
+.type-btn-border-grass {
+    border-color: #b4f000;
+}
+
+.type-btn-box-shadow-grass {
+    box-shadow: 0 0 0.25em 0.03em #92bf19;
+}
+
+/* Typ poison */
+
+.type-btn-poison {
+    background-color: #be78be;
+}
+
+.type-btn-border-poison {
+    border-color: #d28cd2;
+}
+
+.type-btn-box-shadow-poison {
+    box-shadow: 0 0 0.25em 0.03em #be78be;
+}
+
+/* Typ fire */
+
+.type-btn-fire {
+    background-color: #ff3700;
+}
+
+.type-btn-border-fire {
+    border-color: #ff6900;
+}
+
+.type-btn-box-shadow-fire {
+    box-shadow: 0 0 0.25em 0.03em #ff3700;
+}
+
+/* Typ dragon */
+
+.type-btn-dragon {
+    background-color: #3c64c8;
+}
+
+.type-btn-border-dragon {
+    border-color: #5078dc;
+}
+
+.type-btn-box-shadow-dragon {
+    box-shadow: 0 0 0.25em 0.03em #3c64c8;
+}
+
+/* Typ flying */
+
+.type-btn-flying {
+    background-color: #79bcd7;
+}
+
+.type-btn-border-flying {
+    border-color: #78dcff;
+}
+
+.type-btn-box-shadow-flying {
+    box-shadow: 0 0 0.25em 0.03em #79bcd7;
+}
+
+/* Typ bug */
+
+.type-btn-bug {
+    background-color: #32b432;
+}
+
+.type-btn-border-bug {
+    border-color: #46c846;
+}
+
+.type-btn-box-shadow-bug {
+    box-shadow: 0 0 0.25em 0.03em #32b432;
+}
+
+/* Typ normal */
+
+.type-btn-normal {
+    background-color: #a0a0a0;
+}
+
+.type-btn-border-normal {
+    border-color: #dcdcdc;
+}
+
+.type-btn-box-shadow-normal {
+    box-shadow: 0 0 0.25em 0.03em #a0a0a0;
+}
+
+/* Typ dark */
+
+.type-btn-dark {
+    background-color: #646464;
+}
+
+.type-btn-border-dark {
+    border-color: #787878;
+}
+
+.type-btn-box-shadow-dark {
+    box-shadow: 0 0 0.25em 0.03em #646464;
+}
+
+/* Typ electric */
+
+.type-btn-electric {
+    background-color: #e4b700;
+}
+
+.type-btn-border-electric {
+    border-color: #ffe100;
+}
+
+.type-btn-box-shadow-electric {
+    box-shadow: 0 0 0.25em 0.03em #e4b700;
+}
+
+/* Typ psychic */
+
+.type-btn-psychic {
+    background-color: #dc78c8;
+}
+
+.type-btn-border-psychic {
+    border-color: #f08cdc;
+}
+
+.type-btn-box-shadow-psychic {
+    box-shadow: 0 0 0.25em 0.03em #dc78c8;
+}
+
+/* Typ ground */
+
+.type-btn-ground {
+    background-color: #cca142;
+}
+
+.type-btn-border-ground {
+    border-color: #fac85a;
+}
+
+.type-btn-box-shadow-ground {
+    box-shadow: 0 0 0.25em 0.03em #cca142;
+}
+
+/* Typ ice */
+
+.type-btn-ice {
+    background-color: #00b7ee;
+}
+
+.type-btn-border-ice {
+    border-color: #14f5ff;
+}
+
+.type-btn-box-shadow-ice {
+    box-shadow: 0 0 0.25em 0.03em #00b7ee;
+}
+
+/* Typ steel */
+
+.type-btn-steel {
+    background-color: #96b4dc;
+}
+
+.type-btn-border-steel {
+    border-color: #aac8f0;
+}
+
+.type-btn-box-shadow-steel {
+    box-shadow: 0 0 0.25em 0.03em #96b4dc;
+}
+
+/* Typ fairy */
+
+.type-btn-fairy {
+    background-color: #ff7eb8;
+}
+
+.type-btn-border-fairy {
+    border-color: #ffafdc;
+}
+
+.type-btn-box-shadow-fairy {
+    box-shadow: 0 0 0.25em 0.03em #ff7eb8;
+}
+
+/* Typ fighting */
+
+.type-btn-fighting {
+    background-color: #c85500;
+}
+
+.type-btn-border-fighting {
+    border-color: #dc6900;
+}
+
+.type-btn-box-shadow-fighting {
+    box-shadow: 0 0 0.25em 0.03em #c85500;
+}
+
+
+/* Typ rock */
+
+.type-btn-rock {
+    background-color: #a07850;
+}
+
+.type-btn-border-rock {
+    border-color: #b48c64;
+}
+
+.type-btn-box-shadow-rock {
+    box-shadow: 0 0 0.25em 0.03em #a07850;
+}
+
+/* Typ water */
+
+.type-btn-water {
+    background-color: #0094e5;
+}
+
+.type-btn-border-water {
+    border-color: #14b9ff;
+}
+
+.type-btn-box-shadow-water {
+    box-shadow: 0 0 0.25em 0.03em #0094e5;
+}
+
+/* Typ ghost */
+
+.type-btn-ghost {
+    background-color: #8c78f0;
+}
+
+.type-btn-border-ghost {
+    border-color: #a08cff;
+}
+
+.type-btn-box-shadow-ghost {
+    box-shadow: 0 0 0.25em 0.03em #8c78f0;
+}

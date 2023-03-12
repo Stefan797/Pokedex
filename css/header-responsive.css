@@ -1,0 +1,126 @@
+.headersmartphone {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    background-color: #0A141E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5 !important;
+}
+
+.pikachu {
+    position: fixed;
+    left: 5%;
+    top: 1%;
+}
+
+.pikachu-smartphone {
+    height: 70%;
+    width: 60%;
+    filter: drop-shadow(2px 4px 6px #ffffff);
+}
+
+.drop-menu {
+    position: fixed;
+    right: 5%;
+    top: 1%;
+    color: white;
+    font-size: 38px;
+}
+
+.header-menu {
+    z-index: 12;
+    position: fixed;
+    left: 10%;
+    top: 12vh;
+    height: 80vh;
+    width: 80vw;
+    background-color: white;
+    border-radius: 8px;
+    
+    background-image: url('../img/background-two.jpg');
+}
+
+.insidebox {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+/* .insidebox::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 2px;
+    border: 2px solid #B3EAFE;
+    animation: clippath 10s infinite linear; 
+} */
+
+/* @keyframes clippath {
+    0%,
+    100% {
+        rotate: rotate(1turn);
+        clip-path: inset(0 0 0 95%);
+    }
+    25% {
+        clip-path: inset(0 0 95% 0);
+    }
+    50% {
+        clip-path: inset(0 95% 0 0);
+    }
+    75% {
+        clip-path: inset(95% 0 0 0);
+    }
+} */
+
+.close-menu {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    font-size: 28px;
+    color: #B3EAFE;
+}
+
+.allfiles {
+    text-align: center;
+}
+
+.allfiles p {
+    color: #B3EAFE;
+    font-size: 22px;
+}
+
+.allfiles span {
+    color: #B3EAFE;
+    font-size: 16px;
+}
+
+
+/* .conic {
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: -50%;
+        top: -50%;
+        width: 200%;
+        height: 200%;
+        background: conic-gradient(transparent, rgba(168, 239, 255, 1), transparent 30%);
+        animation: rotate 4s linear infinite;
+    }
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(1turn);
+    }
+} */
